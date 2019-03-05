@@ -25,5 +25,5 @@ line(legX1, legY1, legX2, legY2);//left
 line(legX1 + bodyW, legY1, legX2 + 110, legY2);//right
 
 //arms
-line(300, 320, legX1, bodyH*2);//left
-line(420, 400, 480, 320);//right
+line(headX - 40, headY + 120, legX1, bodyH*2);//left
+line(legX1 + 60, bodyH*2, legY1 - 20, headX - 20);//right
