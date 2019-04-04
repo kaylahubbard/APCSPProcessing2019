@@ -9,10 +9,10 @@ void draw(){
   background(150); //need to keep re-drawing the background so that you only get one line going across the screen
   
   line(x, 0, x, width);
-  x = x + 5;//this will move the x-value across the screen
+  x = x + 5; //this will move the x-value across the screen
    
   //this conditional statement will reset your line back to the beginning of your screen
-  if(x > 2*width){
+  if(x > width){
     x = 0;
   }
   
